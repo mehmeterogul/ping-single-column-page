@@ -26,10 +26,10 @@
   <body>
     <main class="container">
       <img class="logo" src="./images/logo.svg" alt="Ping brand logo" />
-      <hgroup class="hgroup">
+      <div class="hgroup">
         <h1 class="hgroup__heading">We are launching <span>soon!</span></h1>
         <p class="hgroup__text">Subscribe and get notified</p>
-      </hgroup>
+      </div>
       <form class="email-form" action="#">
         <input
           class="email-form__input"
@@ -48,13 +48,17 @@
       />
       <ul class="social-list">
         <li>
-          <a href="#"><i class="lab la-facebook-f"></i></a>
+          <a href="#" aria-label="Facebook"
+            ><i class="lab la-facebook-f"></i
+          ></a>
         </li>
         <li>
-          <a href="#"><i class="lab la-twitter"></i></a>
+          <a href="#" aria-label="Twitter"><i class="lab la-twitter"></i></a>
         </li>
         <li>
-          <a href="#"><i class="lab la-instagram"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="lab la-instagram"></i
+          ></a>
         </li>
       </ul>
       <span class="copyright">&copy; Copyright Ping. All rights reserved.</span>
